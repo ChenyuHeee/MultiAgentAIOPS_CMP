@@ -1,5 +1,3 @@
-aiops2021/
-
 # ===== Python / venv =====
 .venv/
 venv/
@@ -47,11 +45,15 @@ nohup.out
 # ===== Generated datasets / artifacts (project-specific) =====
 /dataset/
 
-/aiops2021/outputs/
+# aiops2021: keep code, ignore raw data + generated artifacts
 /aiops2021/2021-*/
 /aiops2021/**/log-parquet/
 /aiops2021/**/metric-parquet/
 /aiops2021/**/trace-parquet/
+/aiops2021/outputs/
+/aiops2021/inputs/
+/aiops2021/aiops21_groundtruth.csv
+/aiops2021/ground_truth.jsonl
 
 /OpenRCA/outputs/
 /OpenRCA/dataset/

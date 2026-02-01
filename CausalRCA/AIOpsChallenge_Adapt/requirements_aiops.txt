@@ -1,0 +1,15 @@
+# AIOpsChallenge adapter environment for CausalRCA
+# Keep versions flexible to work on modern macOS + Python 3.11.
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+scikit-network>=0.33
+networkx>=2.8
+matplotlib>=3.7
+tqdm>=4.60
+requests>=2.25
+
+# Causal discovery training
+torch>=2.1

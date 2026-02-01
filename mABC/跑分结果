@@ -1,0 +1,23 @@
+repo: https://github.com/zwpride/mABC
+模型：qwen-flash
+
+- phase1：
+  - LA（Component Accuracy）= 9.48%
+  - TA（Reason Accuracy）= 44.55%
+  - Efficiency = 100.00%
+  - Explainability = 0.60%
+  - Final Score = 31.67
+
+- phase2：
+  - LA = 8.85%
+  - TA = 42.71%
+  - Efficiency = 100.00%
+  - Explainability = 0.28%
+  - Final Score = 30.65
+
+- phase12（合并评测）：
+  - LA = 9.18%
+  - TA = 43.67%
+  - Efficiency = 100.00%
+  - Explainability = 0.44%
+  - Final Score = 31.19

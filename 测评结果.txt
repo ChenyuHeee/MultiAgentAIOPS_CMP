@@ -1,0 +1,20 @@
+aiops2021 all（159） AIOpsChallengeJudge 跑分汇总（reason-threshold=0.65）
+更新时间：2026-02-01
+OpenRCA(heuristic) zh: LA 11.95 | TA 11.95 | Eff 100.00 | Exp 0.00 | Final 19.56
+OpenRCA(heuristic) en: LA 11.95 | TA 27.04 | Eff 100.00 | Exp 0.00 | Final 25.60
+
+
+OpenRCA(agent,qwen) zh: LA 5.03 | TA 28.93 | Eff 100.00 | Exp 0.00 | Final 23.58
+OpenRCA(agent,qwen) en: LA 5.03 | TA 32.08 | Eff 100.00 | Exp 0.00 | Final 24.84
+
+OpenRCA(agent,deepseek) zh: LA 10.69 | TA 3.14 | Eff 100.00 | Exp 0.00 | Final 15.53
+OpenRCA(agent,deepseek) en: LA 10.69 | TA 17.61 | Eff 100.00 | Exp 0.00 | Final 21.32
+
+CausalRCA zh: LA 1.89 | TA 2.52 | Eff 100.00 | Exp 0.00 | Final 11.76
+CausalRCA en: LA 1.89 | TA 19.50 | Eff 100.00 | Exp 0.00 | Final 18.55
+
+mABC(qwen) zh: LA 8.18 | TA 10.69 | Eff 100.00 | Exp 0.00 | Final 17.55
+mABC(qwen) en: LA 8.18 | TA 28.30 | Eff 100.00 | Exp 0.00 | Final 24.59
+
+mABC(deepseek) zh: LA 8.18 | TA 36.48 | Eff 100.00 | Exp 0.00 | Final 27.86
+mABC(deepseek) en: LA 8.18 | TA 56.60 | Eff 100.00 | Exp 0.00 | Final 35.91

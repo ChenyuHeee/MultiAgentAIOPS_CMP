@@ -1,0 +1,79 @@
+aiops2021/
+
+# ===== Python / venv =====
+.venv/
+venv/
+.python-version
+
+# ===== Python cache / build =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# ===== Test / type / lint caches =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== macOS =====
+.DS_Store
+
+# ===== Secrets =====
+.env
+.env.*
+
+# ===== Logs / runtime =====
+*.log
+nohup.out
+*.pid
+
+# ===== Local git metadata backups =====
+.git_backups/
+
+# ===== Generated datasets / artifacts (project-specific) =====
+/dataset/
+
+/aiops2021/outputs/
+/aiops2021/2021-*/
+/aiops2021/**/log-parquet/
+/aiops2021/**/metric-parquet/
+/aiops2021/**/trace-parquet/
+
+/OpenRCA/outputs/
+/OpenRCA/dataset/
+
+/CausalRCA/data_aiops/
+/CausalRCA/data_collected/
+/CausalRCA/data_mabc/
+/CausalRCA/figures/
+/CausalRCA/pa_result/
+
+/mABC/data
+/mABC/data/
+/mABC/backups/
+/mABC/data_phase2/
+/mABC/跑分结果/
+
+# ===== Large binary formats =====
+*.parquet
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin

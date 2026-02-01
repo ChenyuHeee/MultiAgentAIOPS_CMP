@@ -1,0 +1,6 @@
+# OpenRCA OpenAI-compatible routing config for DeepSeek
+# Usage: export OPENRCA_API_CONFIG_PATH=.../api_config_deepseek.yaml
+SOURCE: AI
+API_BASE: https://api.deepseek.com/v1
+MODEL: deepseek-chat
+# API_KEY is read from environment (API_KEY) when SOURCE=AI

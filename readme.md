@@ -140,22 +140,7 @@ mABC 支持分片并行，并会生成 submission jsonl。
 
 合并 part 文件后再评分（你也可以参考 [aiops2021/merge_and_score_mabc_all_llm.py](aiops2021/merge_and_score_mabc_all_llm.py) 的实现）。
 
-### 3) OpenRCA（heuristic 与 RCA-agent）
-
-#### heuristic
-
-```bash
-# OpenRCA heuristic 依赖 CausalRCA 产出的 pkls。
-PKLS_DIR=$CAUSAL_INPUTS_DIR/pkls
-
-.venv/bin/python OpenRCA/AIOpsChallenge_Adapt/run_openrca_heuristic_and_build_submission.py \
-  --phase phase1 \
-  --pkls-dir "$PKLS_DIR" \
-  --input-json "$INPUT_JSON" \
-  --out-jsonl "$OUT_DIR/submission_openrca_heuristic.jsonl"
-```
-
-#### RCA-agent（controller + executor 多轮）
+### 3) OpenRCA（RCA-agent：controller + executor 多轮）
 
 RCA-agent 需要可用的 OpenAI-compatible 接口配置与 API Key（**不要提交到 git**）。
 
@@ -186,7 +171,7 @@ judge 只依赖 ground truth 与 submission（二者必须 uuid 对齐），示�
 ```bash
 .venv/bin/python AIOpsChallengeJudge/evaluate.py \
 	--ground-truth "$DATASET_ROOT/ground_truth.jsonl" \
-	--submission "$OUT_DIR/submission_openrca_heuristic.jsonl" \
+	--submission "$OUT_DIR/submission.jsonl" \
 	--reason-threshold 0.65
 ```
 
